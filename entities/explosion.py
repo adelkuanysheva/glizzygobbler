@@ -1,6 +1,10 @@
 import pygame
 
 class Explosion(pygame.sprite.Sprite):
+
+	# LINK FOR THIS TUTORIAL! 
+	# https://www.youtube.com/watch?v=d06aVDzOfV8
+
 	def __init__(self, x, y):
 		pygame.sprite.Sprite.__init__(self)
 		self.images = []
